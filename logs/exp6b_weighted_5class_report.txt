@@ -1,0 +1,28 @@
+EXPERIMENT 6 — LINEAR EVALUATION REPORT
+============================================================
+
+Checkpoint:          checkpoints/exp5_100epochs_checkpoint_done.pth
+Number of clusters:  5
+Silhouette score:    0.9867
+Best test accuracy:  99.3%
+Final test accuracy: 99.3%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Surface 0       0.99      1.00      0.99       793
+   Surface 1       1.00      1.00      1.00       798
+   Surface 2       0.00      0.00      0.00         2
+   Surface 3       0.00      0.00      0.00         1
+   Surface 4       0.00      0.00      0.00         8
+
+    accuracy                           0.99      1602
+   macro avg       0.40      0.40      0.40      1602
+weighted avg       0.99      0.99      0.99      1602
+
+Confusion Matrix:
+[[793   0   0   0   0]
+ [  0 798   0   0   0]
+ [  2   0   0   0   0]
+ [  1   0   0   0   0]
+ [  8   0   0   0   0]]

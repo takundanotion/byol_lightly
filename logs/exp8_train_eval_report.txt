@@ -1,0 +1,24 @@
+EXPERIMENT 8 — TRAIN/TEST SPLIT EVALUATION (clean 4004 images)
+============================================================
+
+Checkpoint:        checkpoints/exp8_split_resnet18_checkpoint.pth
+Train images:      3203
+Test images:       801
+Number of clusters:2
+Train Silhouette:  0.2655
+Test Silhouette:   0.2479
+Test Accuracy:     97.9%
+
+Classification Report (TEST set):
+              precision    recall  f1-score   support
+
+   Surface 0       1.00      0.94      0.97       280
+   Surface 1       0.97      1.00      0.98       521
+
+    accuracy                           0.98       801
+   macro avg       0.98      0.97      0.98       801
+weighted avg       0.98      0.98      0.98       801
+
+Confusion Matrix (TEST set):
+[[263  17]
+ [  0 521]]
