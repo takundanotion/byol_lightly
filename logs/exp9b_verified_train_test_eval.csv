@@ -1,0 +1,2 @@
+train_images,test_images,train_silhouette,test_silhouette,test_accuracy
+3203,801,0.2493,0.2447,0.9913

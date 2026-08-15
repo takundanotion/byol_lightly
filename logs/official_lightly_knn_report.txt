@@ -1,0 +1,15 @@
+OFFICIAL LIGHTLY KNN EVALUATION — REPORT
+============================================================
+
+Run timestamp:      2026-08-15 10:16:05
+BYOL checkpoint:    checkpoints/exp9b_verified_checkpoint.pth
+Train dir:          lightly_eval_data/train
+Val dir:            lightly_eval_data/val
+Batch size:         16
+knn_k:              200
+knn_t:              0.1
+Num classes:        2
+topk:               (1,)  [top-5 disabled — not meaningful for 2 classes]
+
+Results:
+  val_knn_top1/dataloader_idx_1: 0.6117353439331055

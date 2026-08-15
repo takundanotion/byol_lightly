@@ -26,9 +26,9 @@ MOMENTUM_END = 1.0       # by the end it barely moves at all
 
 # --- Checkpoints & logs ---
 CHECKPOINT_DIR = "checkpoints"
-CHECKPOINT_FILE = "checkpoints/exp9b_hiddenonly_checkpoint.pth"
-LOG_FILE        = "logs/exp9b_hiddenonly_log.txt"
-CSV_LOG_FILE    = "logs/exp9b_hiddenonly_log.csv" 
+CHECKPOINT_FILE = "checkpoints/exp9b_verified_checkpoint.pth"
+LOG_FILE        = "logs/exp9b_verified_log.txt"
+CSV_LOG_FILE    = "logs/exp9b_verified_log.csv" 
 
 # --- Collapse detection ---
 COLLAPSE_THRESHOLD = 0.1  # feature std below this = warning

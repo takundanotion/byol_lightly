@@ -1,0 +1,16 @@
+OFFICIAL LIGHTLY LINEAR EVALUATION — REPORT
+============================================================
+
+Run timestamp:      2026-08-15 05:45:45
+BYOL checkpoint:    checkpoints/exp9b_verified_checkpoint.pth
+Train dir:          lightly_eval_data/train
+Val dir:            lightly_eval_data/val
+Batch size:         16
+Max epochs:         90
+Num classes:        2
+topk:               (1,)  [top-5 disabled — not meaningful for 2 classes]
+
+Results:
+  val_top1: 0.6167290806770325
+
+Per-epoch metrics CSV: logs/lightly_official_eval/linear_eval/version_0/metrics.csv

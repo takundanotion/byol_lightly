@@ -1,0 +1,6 @@
+num_classes: 2
+knn_k: 200
+knn_t: 0.1
+topk:
+- 1
+feature_dtype: torch.float32

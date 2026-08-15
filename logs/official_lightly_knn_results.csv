@@ -1,0 +1,2 @@
+timestamp,checkpoint,val_knn_top1,knn_k,knn_t,num_classes
+2026-08-15 10:16:05,checkpoints/exp9b_verified_checkpoint.pth,n/a,200,0.1,2

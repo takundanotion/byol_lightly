@@ -1,0 +1,3 @@
+timestamp,checkpoint,val_top1,max_epochs,batch_size,num_classes
+2026-08-15 03:20:55,checkpoints/exp9b_verified_checkpoint.pth,0.6092384457588196,90,16,2
+2026-08-15 05:45:45,checkpoints/exp9b_verified_checkpoint.pth,0.6167290806770325,90,16,2

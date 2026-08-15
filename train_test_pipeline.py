@@ -39,7 +39,7 @@ from config import PROJECTION_INPUT
 # Settings
 # ==============================================================
 
-CHECKPOINT_PATH = "checkpoints/exp9b_hiddenonly_checkpoint.pth"
+CHECKPOINT_PATH = "checkpoints/exp9b_verified_checkpoint.pth"
 TRAIN_LIST      = "data/train_files.txt"
 TEST_LIST       = "data/test_files.txt"
 NUM_CLUSTERS    = 2       # confirmed 2 dominant surface types from earlier experiments
@@ -47,8 +47,8 @@ BATCH_SIZE      = 32
 LINEAR_EPOCHS   = 50
 LEARNING_RATE   = 1e-3
 RESULTS_DIR     = "logs"
-RESULTS_CSV     = "logs/exp9b_train_test_eval.csv"
-REPORT_FILE     = "logs/exp9b_train_test_report.txt"
+RESULTS_CSV     = "logs/exp9b_verified_train_test_eval.csv"
+REPORT_FILE     = "logs/exp9b_verified_train_test_report.txt"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
